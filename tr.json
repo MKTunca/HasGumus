@@ -1,0 +1,59 @@
+{
+  "navbar": {
+    "home": "ANASAYFA",
+    "conformity": "KURUMSAL",
+    "liveMarket": "CANLI PİYASA",
+    "infoSociety": "BİLGİ TOPLUMU HİZMETLERİ",
+    "aboutUs": "HAKKIMIZDA",
+    "contact": "İLETİŞİM",
+    "language": "ENG"
+  },
+  "home": {
+    "purposes": "*Fiyatlarımız bilgi amaçlıdır.",
+    "titleTryApp": "Mobil uygulamamızı denediniz mi?",
+    "icon1": "Güvenli",
+    "textTryApp": "Fiyatlarımıza en güvenli şekilde ulaşın.",
+    "icon2": "Erişilebilirlik",
+    "translater": "Her zaman, her yerde fiyatlarımızı takip edebilirsiniz.",
+    "icon3": "Kârlılık",
+    "icon_text": "Güncel fiyatlar ile kazancınızı maksimize edin.",
+    "icon4": "Mobil Uygulama",
+    "icon4_text": "Mobil uygulamamız ile her zaman yanınızdayız.",
+    "icon5": "Zaman",
+    "icon5_text": "Telefon görüşmeleri ile zaman kaybetmeyin ve fiyat kaçırmayın.",
+    "icon6": "PORTFÖY",
+    "icon6_text": "Güncel fiyatlar ile kazancınızı en üst düzeye taşıyın.",
+    "enable": "Her yerden erişilebilir.",
+    "portfoy": "Fiyatlarımız bilgi amaçlıdır.",
+    "risk": "Anlık fiyat takibi ile riskinizi en aza indirin.",
+    "address": "Adres",
+    "addressText": "Çarşıkapı Nuruosmaniye Cd. No:43/1 Fatih - İSTANBUL",
+    "phone": "Telefon"
+  },
+  "liveMarket": {
+    "exchange": "DÖVİZ",
+    "gold": "MADEN",
+    "parity": "PARİTE",
+    "trappings": "SARRAFİYE",
+    "ask": "SATIŞ",
+    "bid": "ALIŞ",
+    "news": "HABERLER",
+    "title": "MOBIL UYGULAMAMIZI İNDİRMEK İÇİN TIKLAYIN."
+  },
+  "aboutUs": {
+    "about": "Hakkımızda",
+    "about_content": " <h3 style='color:black;font-weight: bolder;text-align:left;'>Hakkımızda</h3><div _ngcontent-qsb-c106 style='color:red'><p style='text-align: left;'><span style='font-size:20pt;'><strong><span style='color: rgb(23, 23, 23); text-decoration: inherit;'></span></strong></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(196, 156, 72); text-decoration: inherit;'>Sevgili Has Gümüş Müşterileri,</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>2011 yılında, Türkiye'nin geleneksel altın ve döviz piyasası olan Kapalıçarşı'da HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ LTD.ŞTİ. adıyla kurulan ilk firmamız, sarrafiye altın çeşitleri alım-satımı, standart ve standart dışı altın ve gümüş alım-satımı ile ticaret hayatına başlamıştır. Kısa sürede müşteri portföyünü genişletip, müşterisine verdiği hizmet kalitesi ile Kapalıçarşı piyasasında adından söz ettirmiş, emin adımlarla iş hacmini genişletmiştir.</span></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'><br _ngcontent-bpd-c84=''></span></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'><br _ngcontent-bpd-c84=''></span></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Sürekli büyüyen iş hacmi nedeniyle, 2013 Yılında HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ A.Ş. unvan değişikliğiyle kurumsallaşma sürecine girilmiştir.</span></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'><br _ngcontent-bpd-c84=''></span></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'><br _ngcontent-bpd-c84=''></span></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Firmanız 2013 yılında kurumsallaşma yolunda yeniden yapılanma çerçevesinde BORSA İSTANBUL A.Ş. üyeliğine almıştır Borsa İstanbul aracılığıyla Fiziki İşlemler yaparak müşterilerine; yüksek finansal teknoloji altyapısı üzerinde fiziki teslimatlı altın ve gümüş alım-satım işlemi yapma imkanı sunarak Kapalıçarşı ve Türkiye genelinde kesintisiz hizmet vermeye devam etmektedir.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(196, 156, 72); text-decoration: inherit;'>Vizyonumuz</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Firmamızı Türkiye’nin saygın, dürüst ve güvenilir ALTIN VE GÜMÜŞ öncelikli olmak üzere kıymetli madenlerin ticaretini yapmak temel görüşümüzdür.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(196, 156, 72); text-decoration: inherit;'>Misyonumuz</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Ortaklarına, çalışanlarına, müşterilerine, tedarikçilerine, topluma, insanlığa yardımcı olup önem vermek temel hedeflerimiz arasındadır. Yurtiçi ve Yurtdışı piyasalarda tanınmış saygın marka olmak, müşterilerine en yüksek memnuniyeti vermek görevimizdir.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(196, 156, 72); text-decoration: inherit;'>Kurumsal Değerlerimiz</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Müşterilerimizin yaşantılarına her anlamda değer katmak temel çalışma ilkelerimizdendir.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Toplumsal değerlere saygılı, değişim ve gelişime açığız.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>İlişkilerimizde ve ticaretimizde dürüstlük ve objektifliği esas alırız.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Etik kuralları ciddiye alan, rekabetçi anlayış davranışlarımıza yön verir.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Doğal kaynaklarımıza ve tarihsel mirasımızı sahip çıkıp değer katarak geleceğe aktarırız.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Öğrenmeye ve öğretmeye açıklığı bir işletme politikası olarak uygular ve bu doğrultuda devam ederiz.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Çalışanlarımız ve iş ortaklarımız için sürekli eğitim ilkesini benimser, geleceklerine yatırım yaparız.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Eleştirileri öğrenme fırsatı olarak görüp, kendimizi sürekli olarak geliştiririz.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Müşterilerimizin ürün ve hizmetlerimiz hakkındaki düşüncelerini her fırsatta alır, çözüm odaklı davranışlar geliştiririz.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>Çalışanlarımıza değer verir, yaptığımız her işe inanır, ilişkilerimizi sevgi ve saygıya dayandırır, işimize tutku ile bağlanırız.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>İçinde bulunduğumuz topluma karşı sosyal sorumluluklarımızın olduğu bilinci ile hareket ederiz, eğitimi desteklemeyi öncelikli hedeflerimiz arasında görürüz.</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><span style='color: rgb(196, 156, 72); text-decoration: inherit;'>Faaliyetlerimiz</span></span></p><p style='text-align: left;'><span style='font-size: 16pt;'><strong><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ A.Ş.</span></strong></span><span style='font-size: 16pt;'><span style='color: rgb(23, 23, 23); text-decoration: inherit;'>, T.C Hazine Müsteşarlığının vermiş olduğu izin ve yetki çerçevesinde dünyada kabul görmüş ALTIN, GÜMÜŞ, PLATİN, PALADYUM, BRONZ MARKAZİT ve DEĞERLİ KIYMETLİ benzeri madenlerin ve bunlardan mamul ziynet sarrafiye ve kuyumculuk ürünlerinin ve MÜCEVHERATIN İTHALATI VE İHRACATI alım ve satımı ve anonim şirket esas mukavelesinde yazılı olan diğer işler yapılmaktadır. Bununla beraber tüm dünyada işlenmemiş &amp; işçiliksiz standart veya standart dışı kıymetli maden (altın, gümüş, platin) ticareti, ithalatı &amp; ihracatı faaliyetlerini yürütmektedir. Şirketimiz İstanbul Altın Borsası’na ( İAB ) üye olmasının yanı sıra Elmas ve Kıymetli Taş Piyasa ’sına üyesidir.</span></span></p></div>"
+  },
+  "contact": {
+    "contactUs": "Bize Ulaşın",
+    "phone": "Telefon",
+    "address": "Adres",
+    "mail": "E-Mail"
+  },
+  "infoSociety": {
+    "link_info":"Bilgi Toplumu Hizmetleri belgelerimiz için tıklayınız."
+  },
+  "error":{
+    "error":"Sayfa Bulunumadı"
+  }
+}

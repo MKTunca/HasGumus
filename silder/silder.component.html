@@ -1,0 +1,44 @@
+<!-- <div class="row justify-content-center m-0">
+    <div class="col-12 p-0">
+        <div class="transaction-list" *ngIf="this.categories != null && this.categories.length> 0">
+            <div class="tabs-custom w-100">
+                <div class="w-100 p-1" [style.backgroundColor]="this.lightOrDark === false ? this.widgetDetail.text11 : this.widgetDetail.text11dark">
+                    <ng-scrollbar appearance="standard" track="horizontal" pointerEventsMethod="viewport" [autoHeightDisabled]="false" style="height: 50px; width: 100%;" class="prices-right-scroll{{this.lightOrDark === false ?'-light':'-dark'}}">
+                        <div class="tabitem" *ngFor="let category of this.categories" [style.color]="this.lightOrDark === false ? (category.Name !== this.selectedexchange ?  this.widgetDetail.text12 : this.widgetDetail.text13) : (category.Name !== this.selectedexchange ?  this.widgetDetail.text12dark : this.widgetDetail.text13dark )"
+                            [style.borderBottomColor]="this.lightOrDark === false ? (category.Name !== this.selectedexchange ?  this.widgetDetail.text14 : this.widgetDetail.text14) : (category.Name !== this.selectedexchange ?  this.widgetDetail.text14dark : this.widgetDetail.text14dark )"
+                            [style.borderBottomWidth]="(category.Name !== this.selectedexchange ?  'unset' : '3px!important') " [style.borderBottomStyle]="(category.Name !== this.selectedexchange ?  'unset' : 'solid') " (click)="this.selectTab(category.Name)">
+                            {{category.Name}}</div>
+                    </ng-scrollbar>
+                </div>
+            </div>
+            <div class="liveprice">
+                <div class="header row m-0">
+                    <div class="col headerColumn text-left">
+                    </div>
+                    <div class="col headerColumn text-right">
+                        {{'liveprices.buying' | translate}}</div>
+                    <div class="col headerColumn text-right">
+                        {{'liveprices.sales' | translate}}</div>
+                    <div class="col headerColumn text-center"></div>
+                </div>
+                <div class="bodyContainer">
+                    <ng-scrollbar class="prices-right-scroll{{this.lightOrDark === false ?'-light':'-dark'}}">
+                        <div class="body row align-items-center m-0 " *ngFor="let exchange of this.exchangeRates;let rownumber = index;" (click)="codeClick(exchange.Description)" [style.color]="this.widgetDetail.text1" #body (mouseover)='body.style.color = this.widgetDetail.text2'
+                            (mouseout)='body.style.color = this.widgetDetail.text1' [style.backgroundColor]="(exchange.BgBid === 0 ? this.widgetDetail.text4 : (exchange.BgBid === 1 ? this.widgetDetail.text6 :(rownumber % 2 == 0 ?  (this.lightOrDark === false ? this.widgetDetail.text16 : this.widgetDetail.text16dark) : 'unset')))"
+                            [style.borderTopColor]="this.widgetDetail.text3">
+                            <div class="col bodyColumn text-left"><span>{{exchange.Code}}</span></div>
+                            <div class="col align-self-start bodyColumn text-right"><strong>{{exchange.VBid |
+                                    number:'1.2-4'}}</strong></div>
+                            <div class="col align-self-start bodyColumn text-right"><strong>{{exchange.VAsk |
+                                    number:'1.2-4'}}</strong><br /><span class="perbid" [style.color]="(exchange.BgAsk2 === 0 ? this.widgetDetail.text5 : (exchange.BgAsk2 === 1 ? this.widgetDetail.text7 :'unset'))">%{{exchange.PerBid}}</span>
+                            </div>
+                            <div class="col bodyColumn text-center">
+                                <fa-icon class="p-0 icon" [style.color]="(exchange.BgAsk2 === 0 ? this.widgetDetail.text5 : (exchange.BgAsk2 === 1 ? this.widgetDetail.text7 :'unset'))" [icon]="exchange.BgAsk2 === 0 ? faChevronDown : faChevronUp"></fa-icon>
+                            </div>
+                        </div>
+                    </ng-scrollbar>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

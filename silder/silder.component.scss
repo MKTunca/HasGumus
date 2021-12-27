@@ -1,0 +1,221 @@
+.example-small-box, .example-large-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.example-small-box {
+  height: 100px;
+  width: 100px;
+}
+
+.example-large-box {
+  height: 300px;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .transaction-list .liveprice {
+//   margin-bottom: 0;
+//   // border: 1px solid #3a3e47;
+//   border-width: 1px;
+//   border-style: solid;
+//   // color: #B2B4B7;
+//   // border-radius: 4px;
+// }
+
+// .transaction-list .liveprice .header {
+//   background: #13171f;
+//   color: #ffffff;
+// }
+
+// .transaction-list .liveprice .header .headerColumn {
+//   padding: 10px 15px 10px 15px;
+//   font-size: 14px;
+//   text-transform: uppercase;
+//   letter-spacing: 1px;
+//   font-weight: 500;
+//   // border-left: 1px solid #3a3e47;
+//   border-left-width: 1px;
+//   border-left-style: solid;
+//   transition: all 0.2s ease-in-out;
+// }
+
+// .transaction-list .liveprice .header .headerColumn:nth-child(4) {
+//   width: 50px !important;
+//   flex-basis: unset !important;
+//   flex-grow: unset !important;
+//   max-width: unset !important;
+// }
+
+// .transaction-list .liveprice .bodyContainer .body .bodyColumn:nth-child(4) {
+//   width: 50px !important;
+//   flex-basis: unset !important;
+//   flex-grow: unset !important;
+//   max-width: unset !important;
+// }
+
+// .transaction-list .liveprice .header .headerColumn:first-child {
+//   border-left: 0;
+// }
+
+// .transaction-list .liveprice .bodyContainer {
+//   // max-height: 400px;
+//   overflow-y: hidden;
+// }
+
+// .transaction-list .liveprice .bodyContainer .body {
+//   // border-top: 1px solid #3a3e47;
+//   border-top-width: 1px;
+//   border-top-style: solid;
+//   cursor: pointer;
+//   transition: all 0.2s ease-in-out;
+// }
+
+// .transaction-list .liveprice .bodyContainer .body .bodyColumn {
+//   font-size: 16px;
+//   padding: 10px 15px 10px 15px;
+//   transition: all 0.2s ease-in-out;
+// }
+
+// .transaction-list .liveprice .bodyContainer .body .bodyColumn.text-right,
+// .transaction-list .liveprice .header .headerColumn.text-right {
+//   text-align: right!important;
+// }
+
+// // .transaction-list .liveprice .bodyContainer .body.down {
+// //     background-color: #482429;
+// // }
+// // .transaction-list .liveprice .bodyContainer .body .bodyColumn .downArrow {
+// //     color: #e82e32;
+// // }
+// // .transaction-list .liveprice .bodyContainer .body.up {
+// //     background-color: #163538;
+// // }
+// // .transaction-list .liveprice .bodyContainer .body .bodyColumn .upArrow {
+// //     color: #1eac8c;
+// // }
+// .transaction-list .liveprice .bodyContainer .body .bodyColumn span {
+//   font-size: 14px;
+//   font-weight: 300;
+// }
+
+// .transaction-list .liveprice .bodyContainer .body .bodyColumn .perbid {
+//   font-size: 12px;
+//   font-weight: 300;
+// }
+
+// // .transaction-list .liveprice .bodyContainer .body .bodyColumn .icon {
+// //     -webkit-animation-duration: 200ms;
+// //     animation-duration: 200ms;
+// //     -webkit-animation-timing-function: ease-in;
+// //     animation-timing-function: ease-in;
+// //     -webkit-animation-fill-mode: forwards;
+// //     animation-fill-mode: forwards;
+// // }
+// // .transaction-list .liveprice .bodyContainer .body:hover {
+// //     color: #ffffff;
+// // }
+// ::ng-deep .tabitem {
+//   padding: 10px 15px 10px 15px;
+//   font-size: 14px;
+//   text-transform: uppercase;
+//   letter-spacing: 1px;
+//   font-weight: 500;
+//   transition: all 0.2s ease-in-out;
+//   cursor: pointer;
+//   display: inline-block;
+// }
+
+// @media (max-width: 576px) {
+//   .transaction-list .liveprice .header .headerColumn {
+//       padding: 10px 3px 10px 3px !important;
+//   }
+//   .transaction-list .liveprice .header .headerColumn:nth-child(4) {
+//       width: 35px !important;
+//       flex-basis: unset !important;
+//       flex-grow: unset !important;
+//       max-width: unset !important;
+//   }
+//   .transaction-list .liveprice .bodyContainer .body .bodyColumn {
+//       padding: 3px 3px 3px 3px !important;
+//   }
+//   .transaction-list .liveprice .bodyContainer .body .bodyColumn:nth-child(4) {
+//       width: 35px !important;
+//       padding: 10px 5px 10px 5px !important;
+//       flex-basis: unset !important;
+//       flex-grow: unset !important;
+//       max-width: unset !important;
+//   }
+//   // .transaction-list {
+//   //     margin: 10px!important;
+//   // }
+// }

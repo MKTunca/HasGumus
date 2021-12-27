@@ -1,0 +1,60 @@
+{
+  "navbar": {
+    "home": "HOME",
+    "conformity": "CORPORATE",
+    "liveMarket": "LIVE MARKET",
+    "infoSociety": "INFORMATION COMMUNITY SERVİCES",
+    "aboutUs": "ABOUT US",
+    
+    "contact": "CONTACT",
+    "language": "TR"
+  },
+  "home": {
+    "purposes": "*Our price are for information purposes.",
+    "titleTryApp": "Have you tried our mobile app?",
+    "icon1":"Secure",
+    "textTryApp": "Reach our prices in the safest way.",
+    "icon2":"Accessibility",
+    "translater": "You can follow our prices anytime, anywhere..",
+    "icon3":"Profitability",
+    "icon_text":"Maximize your earnings with current prices.",
+    "enable": "Accessible from anywhere.",
+    "icon4":"Mobile APP",
+    "icon5":"Time",
+    "icon5_text":"Do not waste time with phone calls and do not miss prices.",
+    "icon4_text":"We are always with you with our mobile application.",
+    "icon6":"PORTFOLIO",
+    "icon6_text":"From current goods transport.",
+    "portfoy": "Our price are for information purposes.",
+    "risk": "Minimize your risk with instant price tracking.",
+    "address": "Address",
+    "addressText": "Çarşıkapı Nuruosmaniye Cd. No:43/1 Fatih - İSTANBUL",
+    "phone": "Phone"
+  },
+  "liveMarket": {
+    "exchange": "EXCHANGE",
+    "gold": "GOLD",
+    "parity": "PARITY",
+    "trappings": " GOLD JEWELRY ",
+    "crypto": "CRYPTO",
+    "ask": "ASK",
+    "bid": "BID",
+    "news": "NEWS",
+    "title": "CLICK TO DOWNLOAD OUR MOBILE APPLICATION."
+  },
+  "aboutUs": {
+    "about": "About Us",
+"about_content":"<h3 style='color:black; font-weight: bolder; text-align: left'>About Us</h3><div _ngcontent-qsb-c106 style='color: red'><p style='text-align: left'><span style='font-size: 20pt'><strong><span style='color: rgb(23, 23, 23); text-decoration: inherit'></span></strong></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(196, 156, 72); text-decoration: inherit'>Estimable Customers of Has Gümüş,</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>Our first company established in year 2011 at Grand Bazaar which is the traditional gold and foreign exchange market with the name of HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ LTD.ŞTİ. had started it’s business life by buying-selling exchangable gold products and buying-selling standard and non-standard gold and silver products. In a short time period, our company expanded it’s portfolio and make a name for itself at Grand Bazaar with service quality provided to it’s customers and increased the turnover with firm steps.</span></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'><br _ngcontent-bpd-c84='' /></span></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'><br _ngcontent-bpd-c84='' /></span></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>With constantly growing business volume, HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ A.Ş. entered into period of institutionalization in year 2013.</span></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'><br _ngcontent-bpd-c84='' /></span></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'><br _ngcontent-bpd-c84='' /></span></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>Our company has been accepted as member of the BORSA İSTANBUL A.Ş. within the context of reorganization during institutionalization in year 2013. By making Physical Transactions through Borsa Istanbul, our company offered its customers the opportunity to trade gold and silver with physical delivery on a high financial technology infrastructure. Our company continues to provide uninterrupted service in the Grand Bazaar and throughout Turkey.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>Our Vision</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit' >The principle adopted by our company is to place our company among the respected, honest and reliable companies of Turkey by trading precious metals, primarily GOLD AND SILVER.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(196, 156, 72); text-decoration: inherit'>Our Mission</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>It is among our main goals to give importance to our partners,employees, customers, suppliers, society and humanity. It is our duty to be a well-known and respected brand in domestic and international markets and to give the highest satisfaction to its customers.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(196, 156, 72); text-decoration: inherit'>Our Corporate Values</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>Adding value to our customers' lives in every aspect is one of our basic working principles.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We are respectful to social values ​​and open to change and development.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We are based on honesty and objectivity in our relations and trade.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>Competitive understanding, which takes ethical rules seriously, directs our behavior.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We protect our natural resources and historical heritage and carry them to the future by adding value.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We value learning and teaching as a business policy and continue in this direction.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We adopt the principle of continuous training for our employees and business partners and invest in their future.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We see criticism as an opportunity to learn and we constantly improve ourselves.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We take the opinions of our customers about our products and services at every opportunity and develop solution-oriented behaviors.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We value our employees, we believe in everything we do, we base our relationships on love and respect, and we are passionate about our work.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>We act with the awareness that we have social responsibilities towards the society we live in, and consider supporting education among our primary goals.</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><span style='color: rgb(196, 156, 72); text-decoration: inherit'>Our Activities</span></span></p><p style='text-align: left'><span style='font-size: 16pt'><strong><span style='color: rgb(23, 23, 23); text-decoration: inherit'>HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ A.Ş.</span></strong></span><span style='font-size: 16pt'><span style='color: rgb(23, 23, 23); text-decoration: inherit'>HAS GÜMÜŞ DEĞERLİ MADENLER DIŞ TİCARET SANAYİ A.Ş. is making IMPORT, EXPORT, purchase and sale of worldwide accepted JEWELLRIES like GOLD,SILVER, PLATIN, PALADIUM, BRONZE, MARKAZITE and similar VALUABLE PRECIOUS METALS and products manufactured from them, and other works written in the articles of association of the joint stock company, with the permission and authorization given by the Republic of Turkey Undersecretariat of Treasury. In addition, our company carries out the trade, import and export of unprocessed & unworked standard or non-standard precious metals (gold, silver, platinum) all over the world. Our company is a member of the Diamond and Precious Stones Market as well as being a member of the Istanbul Gold Exchange (IAB).</span></span></p></div>"  },
+  "contact": {
+    "contactUs": "Contact Us",
+    "phone": "Phone",
+    "address": "Address",
+    "mail": "E-Mail"
+  },
+  "infoSociety": {
+    "link_info":"Click here for our Information Society Services documents."
+  },
+  "error":{
+    "error":"Page Not Found"
+  }
+}

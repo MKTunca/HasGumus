@@ -1,0 +1,746 @@
+<body style="background-color: rgb(233, 233, 233);"><div class="request-form" style="background-color: rgb(243, 243, 243)">
+  <div class="coverflow">
+    <a><img src="../../assets/img/banner.jpg" width="100%" /></a>
+    <a><img class="img2" src="../../assets/img/banner2.jpg" width="100%" /></a>
+    <div class="viewport">
+      <ul class="tabs">
+        <li>
+          <input type="radio" name="tab" id="doviz" value="doviz" checked />
+          <label for="doviz" translate>liveMarket.exchange</label>
+          <div class="tabBody">
+            <div style="display: flex; flex-wrap: wrap; width: 100%">
+              <div
+                class="right-div col-sm-12 col-md-12 col-lg-12"
+                style="width: 100%"
+              >
+                <div class="overflow-box">
+                  <div
+                    class="grid-box"
+                    *ngFor="
+                      let data of dataList1;
+                      let i = index;
+                      trackBy: trackByPrice
+                    "
+                  >
+                    <div
+                      class="grid-card"
+                      [ngClass]="{
+                        'grid-card-up': data.askPercentChange > 0,
+                        'grid-card-down': data.askPercentChange < 0
+                      }"
+                    >
+                      <span class="grid-text col-sm-3 col-md-3 col-lg-2">
+                        {{ data.Code }}
+                      </span>
+                      <div class="price-tag col-sm-9 col-md-9 col-lg-9">
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange > 0"
+                          style="color: #3a9d37; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-up"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange < 0"
+                          style="color: #f25961; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-down"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="
+                            data.askPercentChange === 0 ||
+                            !data.askPercentChange
+                          "
+                          style="color: orange; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-minus"></i>
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Bid | number: "1.4-4" }}
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Ask | number: "1.4-4" }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange > 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #3a9d37"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange < 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #f25961"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="
+                            data.askPercentChange == 0 || !data.askPercentChange
+                          "
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: orange"
+                        >
+                          %{{ data.askPercentChange }}.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <input type="radio" name="tab" id="madens" value="madens" />
+          <label for="madens" translate>liveMarket.gold</label>
+          <div class="tabBody">
+            <div style="display: flex; flex-wrap: wrap; width: 100%">
+              <div
+                class="right-div col-sm-12 col-md-12 col-lg-12"
+                style="width: 100%"
+              >
+                <div class="overflow-box">
+                  <div
+                    class="grid-box"
+                    *ngFor="
+                      let data of dataList2;
+                      let i = index;
+                      trackBy: trackByPrice
+                    "
+                  >
+                    <div
+                      class="grid-card"
+                      [ngClass]="{
+                        'grid-card-up': data.askPercentChange > 0,
+                        'grid-card-down': data.askPercentChange < 0
+                      }"
+                    >
+                      <span class="grid-text col-sm-3 col-md-3 col-lg-2">
+                        {{ data.Code }}
+                      </span>
+                      <div class="price-tag col-sm-9 col-md-9 col-lg-9">
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange > 0"
+                          style="color: #3a9d37; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-up"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange < 0"
+                          style="color: #f25961; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-down"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="
+                            data.askPercentChange === 0 ||
+                            !data.askPercentChange
+                          "
+                          style="color: orange; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-minus"></i>
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Bid | number: "1.4-4" }}
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Ask | number: "1.4-4" }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange > 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #3a9d37"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange < 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #f25961"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="
+                            data.askPercentChange == 0 || !data.askPercentChange
+                          "
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: orange"
+                        >
+                          %{{ data.askPercentChange }}.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="tab" id="sarrafiye" value="sarrafiye" />
+          <label for="sarrafiye" translate>liveMarket.trappings</label>
+          <div class="tabBody">
+            <div style="display: flex; flex-wrap: wrap">
+              <div class="right-div col-sm-12 col-md-12 col-lg-12">
+                <div class="overflow-box">
+                  <div
+                    class="grid-box"
+                    *ngFor="
+                      let data of dataList3;
+                      let i = index;
+                      trackBy: trackByPrice
+                    "
+                  >
+                    <div
+                      class="grid-card"
+                      [ngClass]="{
+                        'grid-card-up': data.askPercentChange > 0,
+                        'grid-card-down': data.askPercentChange < 0
+                      }"
+                    >
+                      <span class="grid-text col-sm-3 col-md-3 col-lg-2">
+                        {{ data.Code }}
+                      </span>
+                      <div class="price-tag col-sm-9 col-md-9 col-lg-9">
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange > 0"
+                          style="color: #3a9d37; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-up"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange < 0"
+                          style="color: #f25961; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-down"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="
+                            data.askPercentChange === 0 ||
+                            !data.askPercentChange
+                          "
+                          style="color: orange; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-minus"></i>
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Bid | number: "1.4-4" }}
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Ask | number: "1.4-4" }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange > 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #3a9d37"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange < 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #f25961"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="
+                            data.askPercentChange == 0 || !data.askPercentChange
+                          "
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: orange"
+                        >
+                          %{{ data.askPercentChange }}.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="tab" id="parity" value="parity" />
+          <label for="parity" translate>liveMarket.parity</label>
+          <div class="tabBody">
+            <div style="display: flex; flex-wrap: wrap; width: 100%">
+              <div
+                class="right-div col-sm-12 col-md-12 col-lg-12"
+                style="width: 100%"
+              >
+                <div class="overflow-box">
+                  <div
+                    class="grid-box"
+                    *ngFor="
+                      let data of dataList4;
+                      let i = index;
+                      trackBy: trackByPrice
+                    "
+                  >
+                    <div
+                      class="grid-card"
+                      [ngClass]="{
+                        'grid-card-up': data.askPercentChange > 0,
+                        'grid-card-down': data.askPercentChange < 0
+                      }"
+                    >
+                      <span class="grid-text col-sm-3 col-md-3 col-lg-2">
+                        {{ data.Code }}
+                      </span>
+                      <div class="price-tag col-sm-9 col-md-9 col-lg-9">
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange > 0"
+                          style="color: #3a9d37; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-up"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="data.askPercentChange < 0"
+                          style="color: #f25961; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-arrow-down"></i>
+                        </span>
+                        <span
+                          class="col-sm-3 col-md-3 col-lg-3"
+                          *ngIf="
+                            data.askPercentChange === 0 ||
+                            !data.askPercentChange
+                          "
+                          style="color: orange; padding: 0; text-align: center"
+                        >
+                          <i class="fa fa-minus"></i>
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Bid | number: "1.4-4" }}
+                        </span>
+                        <span class="price col-sm-3 col-md-3 col-lg-3">
+                          {{ data.Ask | number: "1.4-4" }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange > 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #3a9d37"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="data.askPercentChange < 0"
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: #f25961"
+                        >
+                          %{{ data.askPercentChange }}
+                        </span>
+                        <span
+                          *ngIf="
+                            data.askPercentChange == 0 || !data.askPercentChange
+                          "
+                          class="grid-all col-sm-3 col-md-3 col-lg-3"
+                          style="color: orange"
+                        >
+                          %{{ data.askPercentChange }}.00
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Silder atblomu sonu Telefon ve bilgilendirme başı. -->
+<div _ngcontent-mst-c119="" class="pritem h-90 container">
+  <br /><br /><br /><br /><br />
+
+  <div
+    _ngcontent-mst-c119=""
+    class="align-items-center g-0 justify-content-center row"
+  >
+    <div
+      _ngcontent-mst-c119=""
+      class="col-md-4 col-sm-12 ng-star-inserted"
+      style="text-align: unset"
+    >
+      <div
+        _ngcontent-mst-c119=""
+        class="wItem"
+        style="
+          background-color: unset;
+          border-style: solid;
+          border-color: unset;
+          border-width: 0px;
+          padding: unset;
+          margin: unset;
+          border-radius: 0px;
+          overflow: unset;
+          box-shadow: unset;
+        "
+      >
+        <div
+          _ngcontent-mst-c119=""
+          app-servicebox4=""
+          _nghost-mst-c112=""
+          class="ng-star-inserted"
+        >
+          <div _ngcontent-mst-c112="" class="row m-0 ng-star-inserted">
+            <div
+              _ngcontent-mst-c112=""
+              class="itemrow text-center mb-33 col-12 ng-star-inserted"
+            >
+              <div
+                _ngcontent-mst-c112=""
+                class="features-wrap"
+                style="
+                  background-color: unset;
+                  border-style: unset;
+                  border-color: unset;
+                  border-width: unset;
+                  padding: 0px;
+                  border-radius: 0px;
+                  box-shadow: unset;
+                  cursor: pointer;
+                "
+              >
+                <div _ngcontent-mst-c112="" class="features-icon">
+                  <img
+                    _ngcontent-mst-c112=""
+                    class="responsiveimg"
+                    src="../../assets/img/icon.png"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <h4 _ngcontent-mst-c112="" class="ng-star-inserted">
+                  <p translate>home.icon1</p>
+                </h4>
+                <p _ngcontent-mst-c112="" class="ng-star-inserted" translate>
+                  home.textTryApp
+                </p>
+              </div>
+            </div>
+            <div
+              _ngcontent-mst-c112=""
+              class="itemrow text-center mb-25 col-12 ng-star-inserted"
+            >
+              <div
+                _ngcontent-mst-c112=""
+                class="features-wrap"
+                style="
+                  background-color: unset;
+                  border-style: unset;
+                  border-color: unset;
+                  border-width: unset;
+                  padding: 0px;
+                  border-radius: 0px;
+                  box-shadow: unset;
+                  cursor: pointer;
+                "
+              >
+                <div _ngcontent-mst-c112="" class="features-icon">
+                  <img
+                    _ngcontent-mst-c112=""
+                    class="responsiveimg"
+                    src="../../assets/img/icon1.png"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <h4 _ngcontent-mst-c112="" class="ng-star-inserted">
+                  <p translate>home.icon2</p>
+                </h4>
+                <p _ngcontent-mst-c112="" class="ng-star-inserted" translate>
+                  home.translater
+                </p>
+              </div>
+            </div>
+            <div
+              _ngcontent-mst-c112=""
+              class="itemrow text-center mb-25 col-12 ng-star-inserted"
+            >
+              <div
+                _ngcontent-mst-c112=""
+                class="features-wrap"
+                style="
+                  background-color: unset;
+                  border-style: unset;
+                  border-color: unset;
+                  border-width: unset;
+                  padding: 0px;
+                  border-radius: 0px;
+                  box-shadow: unset;
+                  cursor: pointer;
+                "
+              >
+                <div _ngcontent-mst-c112="" class="features-icon">
+                  <img
+                    _ngcontent-mst-c112=""
+                    class="responsiveimg"
+                    src="../../assets/img/icon2.png"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <h4 _ngcontent-mst-c112="" class="ng-star-inserted">
+                  <p translate>home.icon3</p>
+                </h4>
+                <p _ngcontent-mst-c112="" class="ng-star-inserted" translate="">
+                  home.icon_text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      _ngcontent-mst-c119=""
+      class="col-md-4 col-sm-12 ng-star-inserted"
+      style="text-align: unset"
+    >
+      <div
+        _ngcontent-mst-c119=""
+        class="wItem"
+        style="
+          background-color: unset;
+          border-style: solid;
+          border-color: unset;
+          border-width: 0px;
+          padding: unset;
+          margin: 0px 0px 0px 50px;
+          border-radius: 0px;
+          overflow: unset;
+          box-shadow: unset;
+        "
+      >
+        <div
+          _ngcontent-mst-c119=""
+          app-image=""
+          _nghost-mst-c105=""
+          class="ng-star-inserted"
+        >
+          <div _ngcontent-mst-c105="">
+            <img
+              _ngcontent-mst-c105=""
+              class="responsiveimg"
+              src="../../assets/img/phone.png"
+              style="width: 300px"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      _ngcontent-mst-c119=""
+      class="col-md-4 col-sm-12 mg-33 ng-star-inserted"
+      style="text-align: unset"
+    >
+      <div
+        _ngcontent-mst-c119=""
+        class="wItem"
+        style="
+          background-color: unset;
+          border-style: solid;
+          border-color: unset;
+          border-width: 0px;
+          padding: unset;
+          margin: unset;
+          border-radius: 0px;
+          overflow: unset;
+          box-shadow: unset;
+        "
+      >
+        <div
+          _ngcontent-mst-c119=""
+          app-servicebox4=""
+          _nghost-mst-c112=""
+          class="ng-star-inserted"
+        >
+          <div _ngcontent-mst-c112="" class="row m-0 ng-star-inserted">
+            <div
+              _ngcontent-mst-c112=""
+              class="itemrow text-center mb-33 col-12 ng-star-inserted"
+            >
+              <div
+                _ngcontent-mst-c112=""
+                class="features-wrap"
+                style="
+                  background-color: unset;
+                  border-style: unset;
+                  border-color: unset;
+                  border-width: unset;
+                  padding: 0px;
+                  border-radius: 0px;
+                  box-shadow: unset;
+                  cursor: pointer;
+                "
+              >
+                <div _ngcontent-mst-c112="" class="features-icon">
+                  <img
+                    _ngcontent-mst-c112=""
+                    class="responsiveimg"
+                    src="../../assets/img/icon6.png"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <h4 _ngcontent-mst-c112="" class="ng-star-inserted">
+                  <p translate>home.icon4</p>
+                </h4>
+                <p _ngcontent-mst-c112="" class="ng-star-inserted" translate>
+                  home.icon4_text
+                </p>
+              </div>
+            </div>
+            <div
+              _ngcontent-mst-c112=""
+              class="itemrow text-center mb-25 col-12 ng-star-inserted"
+            >
+              <div
+                _ngcontent-mst-c112=""
+                class="features-wrap"
+                style="
+                  background-color: unset;
+                  border-style: unset;
+                  border-color: unset;
+                  border-width: unset;
+                  padding: 0px;
+                  border-radius: 0px;
+                  box-shadow: unset;
+                  cursor: pointer;
+                "
+              >
+                <div _ngcontent-mst-c112="" class="features-icon">
+                  <img
+                    _ngcontent-mst-c112=""
+                    class="responsiveimg"
+                    src="../../assets/img/icon5.png"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <h4 _ngcontent-mst-c112="" class="ng-star-inserted" translate>
+                  home.icon5
+                </h4>
+                <p _ngcontent-mst-c112="" class="ng-star-inserted" translate="">
+                  home.icon5_text
+                </p>
+                <!---->
+              </div>
+            </div>
+            <div
+              _ngcontent-mst-c112=""
+              class="itemrow text-center mb-25 col-12 ng-star-inserted"
+            >
+              <div
+                _ngcontent-mst-c112=""
+                class="features-wrap"
+                style="
+                  background-color: unset;
+                  border-style: unset;
+                  border-color: unset;
+                  border-width: unset;
+
+                  padding: 0px;
+                  border-radius: 0px;
+                  box-shadow: unset;
+                  cursor: pointer;
+                "
+              >
+                <div _ngcontent-mst-c112="" class="features-icon">
+                  <img
+                    _ngcontent-mst-c112=""
+                    class="responsiveimg"
+                    src="../../assets/img/icon7.png"
+                    style="width: 50px; height: 50px"
+                  />
+                </div>
+                <h4 _ngcontent-mst-c112="" class="ng-star-inserted" translate>
+                  home.icon6
+                </h4>
+                <!---->
+                <p _ngcontent-mst-c112="" class="ng-star-inserted" translate>
+                  home.icon6_text
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br /><br /><br /><br /><br />
+
+  <div
+    _ngcontent-ftw-c119=""
+    app-textcontent=""
+    _nghost-ftw-c106=""
+    class="ng-star-inserted"
+  >
+    <div
+      _ngcontent-ftw-c106=""
+      class="e-rte-content"
+      style="color: rgb(255, 255, 255)"
+    >
+      <iframe
+        class="d-flex justify-content-center"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.2371381387034!2d28.97101166559671!3d41.01018597152293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab99406b73637%3A0xe28389473b32e09d!2zSGFzIEfDvG3DvMWf!5e0!3m2!1str!2str!4v1637668310029!5m2!1str!2str"
+        width="auto"
+        height="450"
+        style="
+          border: 0;
+          border: 0;
+          width: 100%;
+          max-height: 400px;
+          height: 400px;
+        "
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <br /><br /><br />
+      <p style="text-align: center">
+        <span style="font-size: 20pt"
+          ><strong
+            ><span style="color: rgb(23, 23, 23); text-decoration: inherit"
+              >HAS GÜMÜŞ</span
+            ></strong
+          ></span
+        >
+      </p>
+      <p style="text-align: center">
+        <span style="font-size: 14pt"
+          ><strong
+            ><span style="color: rgb(23, 23, 23); text-decoration: inherit"
+              >Çarşıkapı Nuriosmaniye Cd. No:43/1</span
+            ></strong
+          ></span
+        ><span style="font-size: 14pt"
+          ><strong
+            ><span style="color: rgb(23, 23, 23); text-decoration: inherit"
+              ><br _ngcontent-bpd-c81="" /></span></strong></span
+        ><span style="font-size: 14pt"
+          ><strong
+            ><span style="color: rgb(23, 23, 23); text-decoration: inherit"
+              >Fatih / İstanbul <br />0212 444 55 21</span
+            ></strong
+          ></span
+        >
+      </p>
+      <br /><br />
+    </div>
+  </div>
+</div>
+</body>
